@@ -32,7 +32,7 @@ Run `npm run check` (or `npm.cmd run check` in PowerShell) to check Svelte and T
 
 ## Deploy to GitHub Pages
 
-The GitHub Actions workflow in `.github/workflows/deploy.yml` builds the static site and deploys it on pushes to `main` (or when run manually). It sets `BASE_PATH` to the repository name, so the site works from a GitHub Pages project URL such as `https://<owner>.github.io/<repository>/`.
+The GitHub Actions workflow in `.github/workflows/deploy.yml` builds the static site and deploys it on pushes to `main` or `master` (or when run manually). It sets `BASE_PATH` to the repository name, so the site works from a GitHub Pages project URL such as `https://<owner>.github.io/<repository>/`.
 
 In the repository settings, set **Pages → Build and deployment → Source** to **GitHub Actions**.
 
